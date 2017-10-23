@@ -1,0 +1,50 @@
+@import url("../../node_modules/bootstrap/dist/css/bootstrap.css");
+@import url("../../node_modules/bootstrap-social/bootstrap-social.css");
+@import url("../../node_modules/font-awesome/css/font-awesome.css");
+@import url("../../node_modules/metismenu/dist/metisMenu.css");
+@import url("../../node_modules/morris.js/morris.css");
+@import "sb-admin-2.scss";
+
+
+#login-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1001;
+	background-color: #f8f8f8;
+}
+
+.fade-enter-active, .fade-leave-active {
+	transition: opacity .5s
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+	opacity: 0
+}
+
+
+.slide-fade-container {
+	opacity: 1;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.slide-fade-enter-active {
+	-webkit-transition: all .10s ease;
+	-moz-transition: all .10s ease;
+	-ms-transition: all .10s ease;
+	-o-transition: all .10s ease;
+	transition: all .10s ease;
+}
+.slide-fade-leave-active {
+	-webkit-transition: all .10s ease;
+	-moz-transition: all .10s ease;
+	-ms-transition: all .10s ease;
+	-o-transition: all .10s ease;
+	transition: all .10s ease;
+}
+.slide-fade-enter, .slide-fade-leave {
+	opacity: 0;
+}

@@ -1,0 +1,13 @@
+{
+	"name": "vanilla",
+	"type": "minecraft",
+	"image": "itzg/minecraft-server",
+	"port": "9005",
+	"localPort": "25565",
+	"path": "/home/michael/homestead/servers",
+	"github": false,
+	"env": {
+		"EULA": "TRUE",
+		"VERSION": "LATEST"
+	}
+}
